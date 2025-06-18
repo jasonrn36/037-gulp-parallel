@@ -10,7 +10,7 @@ function funcaoPadrao(callback) {
 
 function digaOi(callback) {
         setTimeout(function(){
-    console.log("\n\x1b[0m\x1b[33m Essa é a segunda tarefa junto com a primeira\x1b[37m");
+    console.log("\n\x1b[0m\x1b[33mEssa é a segunda tarefa junto com a primeira\x1b[37m");
     digaTchau();
     callback();
     }, 991);
